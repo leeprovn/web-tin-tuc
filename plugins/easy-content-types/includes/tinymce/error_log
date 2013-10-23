@@ -1,0 +1,1 @@
+[20-Aug-2013 13:37:09 UTC] PHP Fatal error:  Cannot redeclare class WP_Admin_Bar in /home3/leepro/public_html/placevn.com/wp-includes/class-wp-admin-bar.php on line 10
