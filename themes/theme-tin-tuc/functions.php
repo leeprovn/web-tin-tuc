@@ -97,12 +97,12 @@ function custom_theme_support() {
 		));
 		
 		register_sidebar(array(
-			'name' => 'S.Home 9-2Box',
-			'description' => 'Widget 0.2 - Hiển thị 2(box) trên trang chủ/Sidebar',
-			'before_widget'  => '<div id="id_%1$s" class="span6 content-box shadow-box">',
-			'after_widget'  => '</div></div>',
-			'before_title'  => '<h2>',
-			'after_title'   => '</h2><div class="box-content widget-box-span-6 format-box">'
+			'name' => 'Sidebar Right',
+			'description' => 'Hiển thị trên sidebar phải',
+			'before_widget'  => '<div id="id_%1$s" class="widget %2$s">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h3>',
+			'after_title'   => '</h3>'
 		));
 	}
 }
@@ -125,7 +125,7 @@ function custom_main_nav($theme_location = 'main_nav', $container = false ) {
     );
 }
 
-add_filter('nav_menu_css_class', 'add_active_class', 10, 2 );
+//add_filter('nav_menu_css_class', 'add_active_class', 10, 2 );
 
 function add_active_class($classes, $item) {
 	if( $item->menu_item_parent == 0 && in_array('current-menu-item', $classes) ) {

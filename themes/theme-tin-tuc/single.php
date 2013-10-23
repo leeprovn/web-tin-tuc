@@ -1,98 +1,69 @@
-<?php
-	get_header();
-?>
-    <section id="slider-wrapper">
-    <div class="container_12 clearfix">
-      <div class="grid_12">
-      	<div class="coda-slider-wrapper arrows clearfix">
-	<div class="coda-slider preload" id="coda-slider-1">
-	  	  		<div class="panel">
-			<div class="panel-wrapper">
-				<div class="one_third "><div class="frame alignleft"><a href="http://livedemo00.template-help.com/wordpress_40786/lorem-ipsum-dolor/etiam-dictum-egestas/"><img class="alignnone size-full wp-image-530" title="slider-thumb01" src="<?php bloginfo('stylesheet_directory'); ?>/images/slider-thumb01.jpg" alt="" width="255" height="130" /></a></div><!-- .frame (end) -->
-<div class="clear"></div>
-<h3>Our Mission</h3>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh od tincidunt ut laoreet dolore magna aliqua erat volutpat. Ut wisi enim ad minim venia<br />
-m, quis nostrud exerci tatio.</p>
-<a href="http://livedemo00.template-help.com/wordpress_40786/lorem-ipsum-dolor/etiam-dictum-egestas/" title="Read More" class="button">Read More</a><!-- .button (end) --></div>
-<div class="one_third "><div class="frame alignleft"><a href="http://livedemo00.template-help.com/wordpress_40786/nulla-facilisi/phasellus-fringilla/"><img class="alignnone  wp-image-531" title="slider-thumb02" src="<?php bloginfo('stylesheet_directory'); ?>/images/slider-thumb02.jpg" alt="" width="255" height="130" /></a></div><!-- .frame (end) -->
-<div class="clear"></div>
-<h3>Our Visions</h3>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh od tincidunt ut laoreet dolore magna aliqua erat volutpat. Ut wisi enim ad minim venia<br />
-m, quis nostrud exerci tatio.</p>
-<a href="http://livedemo00.template-help.com/wordpress_40786/nulla-facilisi/phasellus-fringilla/" title="Read More" class="button">Read More</a><!-- .button (end) --></div>
-<div class="one_third last"><div class="frame alignleft"><a href="http://livedemo00.template-help.com/wordpress_40786/praesent-vestibulum-molestie/lorem-ipsum-dolor-sit/"><img class="alignnone  wp-image-532" title="slider-thumb03" src="<?php bloginfo('stylesheet_directory'); ?>/images/slider-thumb03.jpg" alt="" width="255" height="130" /></a></div><!-- .frame (end) -->
-<div class="clear"></div>
-<h3>Our Goal</h3>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh od tincidunt ut laoreet dolore magna aliqua erat volutpat. Ut wisi enim ad minim venia<br />
-m, quis nostrud exerci tatio.</p>
-<a href="http://livedemo00.template-help.com/wordpress_40786/praesent-vestibulum-molestie/lorem-ipsum-dolor-sit/" title="Read More" class="button">Read More</a><!-- .button (end) --></div><div class="clear"></div>
-<div class="clear"></div>
-			</div>
-		</div>
-	  		<div class="panel">
-			<div class="panel-wrapper">
-				<div class="one_third "><div class="frame alignleft"><a href="http://livedemo00.template-help.com/wordpress_40786/etiam-cursus-leo-vel-metus/velit-sed-leo-ut-pharetra-augue/"><img class="alignnone size-full wp-image-538" title="slider-thumb04" src="<?php bloginfo('stylesheet_directory'); ?>/images/slider-thumb04.jpg" alt="" width="255" height="130" /></a></div><!-- .frame (end) -->
-<div class="clear"></div>
-<h3>Our library</h3>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh od tincidunt ut laoreet dolore magna aliqua erat volutpat. Ut wisi enim ad minim venia<br />
-m, quis nostrud exerci tatio.</p>
-<a href="http://livedemo00.template-help.com/wordpress_40786/etiam-cursus-leo-vel-metus/velit-sed-leo-ut-pharetra-augue/" title="Read More" class="button">Read More</a><!-- .button (end) --></div>
-<div class="one_third "><div class="frame alignleft"><a href="http://livedemo00.template-help.com/wordpress_40786/portfolio-view/etiam-dictum/"><img class="alignnone size-full wp-image-534" title="slider-thumb05" src="<?php bloginfo('stylesheet_directory'); ?>/images/slider-thumb05.jpg" alt="" width="255" height="130" /></a></div><!-- .frame (end) -->
-<div class="clear"></div>
-<h3>Our teachers</h3>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh od tincidunt ut laoreet dolore magna aliqua erat volutpat. Ut wisi enim ad minim venia<br />
-m, quis nostrud exerci tatio.</p>
-<a href="http://livedemo00.template-help.com/wordpress_40786/portfolio-view/etiam-dictum/" title="Read More" class="button">Read More</a><!-- .button (end) --></div>
-<div class="one_third last"><div class="frame alignleft"><a href="http://livedemo00.template-help.com/wordpress_40786/portfolio-view/cras-convallis-sodales/"><img class="alignnone size-full wp-image-535" title="slider-thumb06" src="<?php bloginfo('stylesheet_directory'); ?>/images/slider-thumb06.jpg" alt="" width="255" height="130" /></a></div><!-- .frame (end) -->
-<div class="clear"></div>
-<h3>Our students</h3>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh od tincidunt ut laoreet dolore magna aliqua erat volutpat. Ut wisi enim ad minim venia<br />
-m, quis nostrud exerci tatio.</p>
-<a href="http://livedemo00.template-help.com/wordpress_40786/portfolio-view/cras-convallis-sodales/" title="Read More" class="button">Read More</a><!-- .button (end) --></div><div class="clear"></div>
-<div class="clear"></div>
-			</div>
-		</div>
-	  		<div class="panel">
-			<div class="panel-wrapper">
-				<div class="one_third "><div class="frame alignleft"><a href="http://livedemo00.template-help.com/wordpress_40786/aenean-nonummy-hendrerit/sollicitudin-velit-sed-leo/"><img class="alignnone size-full wp-image-539" title="slider-thumb07" src="<?php bloginfo('stylesheet_directory'); ?>/images/slider-thumb07.jpg" alt="" width="255" height="130" /></a></div><!-- .frame (end) -->
-<div class="clear"></div>
-<h3>Our rewards</h3>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh od tincidunt ut laoreet dolore magna aliqua erat volutpat. Ut wisi enim ad minim venia<br />
-m, quis nostrud exerci tatio.</p>
-<a href="http://livedemo00.template-help.com/wordpress_40786/aenean-nonummy-hendrerit/sollicitudin-velit-sed-leo/" title="Read More" class="button">Read More</a><!-- .button (end) --></div>
-<div class="one_third "><div class="frame alignleft"><a href="http://livedemo00.template-help.com/wordpress_40786/portfolio-view/lorem-ipsum-dolor/"><img class="alignnone size-full wp-image-540" title="slider-thumb08" src="<?php bloginfo('stylesheet_directory'); ?>/images/slider-thumb08.jpg" alt="" width="255" height="130" /></a></div><!-- .frame (end) -->
-<div class="clear"></div>
-<h3>Our seminars</h3>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh od tincidunt ut laoreet dolore magna aliqua erat volutpat. Ut wisi enim ad minim venia<br />
-m, quis nostrud exerci tatio.</p>
-<a href="http://livedemo00.template-help.com/wordpress_40786/portfolio-view/lorem-ipsum-dolor/" title="Read More" class="button">Read More</a><!-- .button (end) --></div>
-<div class="one_third last"><div class="frame alignleft"><a href="http://livedemo00.template-help.com/wordpress_40786/portfolio-view/in-tempus/"><img class="alignnone size-full wp-image-541" title="slider-thumb09" src="<?php bloginfo('stylesheet_directory'); ?>/images/slider-thumb09.jpg" alt="" width="255" height="130" /></a></div><!-- .frame (end) -->
-<div class="clear"></div>
-<h3>Our professors</h3>
-<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh od tincidunt ut laoreet dolore magna aliqua erat volutpat. Ut wisi enim ad minim venia<br />
-m, quis nostrud exerci tatio.</p>
-<a href="http://livedemo00.template-help.com/wordpress_40786/portfolio-view/in-tempus/" title="Read More" class="button">Read More</a><!-- .button (end) --></div><div class="clear"></div>
-<div class="clear"></div>
-			</div>
-		</div>
-	  	  	</div>
-	<div id="coda-nav-1" class="coda-nav">
-		<ul>
-		  		  		  <li class="tab1">
-		  	<a href="#1"><span class="hover"></span>Slide #3</a>
-		  </li>
-		 		  <li class="tab2">
-		  	<a href="#2"><span class="hover"></span>Slide #2</a>
-		  </li>
-		 		  <li class="tab3">
-		  	<a href="#3"><span class="hover"></span>Slide #1</a>
-		  </li>
-		 		 		</ul>
-	</div>
-</div>      </div>
-    </div>
-  </section><!--#slider-->
-  
-<?php
-get_footer();
-?>
+<?php get_header() ?>
+
+<div class="container_12 primary_content_wrap clearfix">
+	<div class="grid_9 right" id="content">
+		<?php
+			if (have_posts()) {
+				the_post(); update_post_caches($posts); 
+				$id = intval($post->ID);
+				$post_views = get_post_custom($id);
+				$post_views = intval($post_views['views'][0]);
+				if(!update_post_meta($id, 'views', ($post_views+1))) {
+					add_post_meta($id, 'views', 1, true);
+				}
+		?>
+			<article class="post-<?php the_ID(); ?> post  <?php echo get_post_type( $post ) ?>   <?php get_post_status( get_the_ID() ) ?> format-standard hentry post-holder" id="post-<?php the_ID(); ?>">			
+				<header class="entry-header">		
+				<h1 class="entry-title"><?php the_title(); ?></h1>
+					<div class="post-meta">
+						<time datetime="2011-07-14T20:30"><?php the_time('d/m/Y'); ?></time>
+						<?php the_author_posts_link(); ?>
+						<?php comments_popup_link(__('0 bình luận', 'theme_option'), __('1 comment', 'theme_option'), __('%  bình luận', 'theme_option'), 'comments-link', __('Đóng bình luận', 'theme_option')); ?>	
+					</div><!--.post-meta-->
+				</header>
+				<div class="clear"></div>		
+				<div class="content">
+					<?php the_content(); ?>
+				</div>
+			</article>
+			<?php $tax_term = isovn_custom_taxonomies_terms_slug();
+					$post_type = 'post';
+					$tax = 'category';
+					$args = array(
+						'post_type' => $post_type,
+						"$tax" => $tax_term,
+						'post_status' => 'publish',
+						'post__not_in' => array( get_the_ID() ),
+						'showposts' => 8,
+						'orderby'	=>'DESC',
+						'posts_per_page' => -1,
+						'caller_get_posts'=> 1
+					);
+					$relastPost = new WP_Query();
+					$relastPost->query($args);
+				if($relastPost->have_posts()){
+			?>
+				<div id="related-posts">
+					<h3>Bài viết cùng chuyển mục</h3>
+					<ul class="related-posts">
+						<?php 
+							while($relastPost->have_posts()) : $relastPost->the_post();
+								$image = isovn_get_post_thumbnai('medium');
+								include('include-related-posts.php');
+							endwhile; wp_reset_query();
+						?>						
+					</ul>
+				</div>
+			<?php
+				}
+				include('templates/comments.php'); 
+			} else { 
+				include('include-message.php');
+			} ?>
+  	
+	</div><!--#content-->
+	<?php
+		get_sidebar();
+	?>
+</div>
+<?php get_footer() ?>

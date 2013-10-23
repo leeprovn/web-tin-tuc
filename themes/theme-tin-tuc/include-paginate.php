@@ -1,0 +1,1 @@
+<div style="clear: both;"></div><div class="wp-pagenavi">	<?php	if (function_exists('wp_paginate')) {		wp_paginate();	} else {		?>		<span class="newer"><?php previous_posts_link(__('Newer Entries', 'orphans-theme')); ?></span>		<span class="older"><?php next_posts_link(__('Older Entries', 'orphans-theme')); ?></span>	<?php } ?></div><!-- Page navigation -->

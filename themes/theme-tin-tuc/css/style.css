@@ -1,11 +1,4 @@
 @charset utf-8;
-/*--
-	Theme Name: theme1742
-	Theme URI: http://template-help.com/
-	Description: A theme for Wordpress 3.1+ from Template-Help.com Collection
-	Author: Template_Help.com 
-	Author URL: http://www.Template-Help.com/ 
---*/
 
 /* General
 ---------------------------------------- */
@@ -300,6 +293,11 @@ body.home .sf-menu {
 }
 .sf-menu > li > a:hover,
 .sf-menu > li.sfHover > a,
+.sf-menu > li.current-menu-item > a ,
+.sf-menu > li.current-category-ancestor > a ,
+.sf-menu > li.current-menu-ancestor > a ,
+.sf-menu > li.current-category-parent > a ,
+.sf-menu > li.current-menu-parent > a ,
 .sf-menu > li.current_page_item > a {
 	margin: 0;
 	line-height:79px;
@@ -849,7 +847,7 @@ body.author .wp-pagenavi {
 .wp-pagenavi a, .wp-pagenavi span {
 	text-decoration: none;
 	border:none !important;
-	padding:0 !important;
+	padding:0;
 	margin:0 26px 0 0;
 	display:inline-block;
 	text-transform:uppercase;

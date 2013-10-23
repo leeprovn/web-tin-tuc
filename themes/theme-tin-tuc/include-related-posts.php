@@ -1,0 +1,1 @@
+<li>	<figure class="featured-thumbnail">		<a title="<?php the_title(); ?>" href="<?php the_permalink(); ?>">			<img width="140" height="100" alt="<?php the_title(); ?>" src="<?php echo $image; ?>">		</a>	</figure>	<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>

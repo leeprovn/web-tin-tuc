@@ -1,2 +1,1 @@
-<?php get_header() ?>
-<?php get_footer() ?>
+<?php get_header() ?><div class="container_12 primary_content_wrap clearfix">	<div class="grid_9 right" id="content">		<?php			if (have_posts()) :		?>			<div class="header-title">				<h1><?php if (function_exists('bcn_display')) {  bcn_display();       }  ?></h1>			</div>			<?php 				get_template_part( 'loop', 'archive' ); 				include('include-paginate.php'); 			else : ?>			<?php include('include-message.php'); ?>		<?php endif; ?>  		</div><!--#content-->	<?php		get_sidebar();	?></div><?php get_footer() ?>
