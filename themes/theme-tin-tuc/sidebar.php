@@ -1,0 +1,1 @@
+<div class="span3">	<?php  if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Sidebar Right') ) :endif;	?>	<?php  if(!is_home()) { if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('S.Right Center') ) :endif; } 	?>	<?php  if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('S.Right Bottom') ) :endif; 	?></div>
